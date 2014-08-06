@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF90FF011992C65E0059C29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF001992C65E0059C29A /* Foundation.framework */; };
+		DF90FF031992C65E0059C29A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF021992C65E0059C29A /* CoreGraphics.framework */; };
+		DF90FF051992C65E0059C29A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF041992C65E0059C29A /* UIKit.framework */; };
+		DF90FF0B1992C65E0059C29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF90FF091992C65E0059C29A /* InfoPlist.strings */; };
+		DF90FF0D1992C65E0059C29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90FF0C1992C65E0059C29A /* main.m */; };
+		DF90FF111992C65E0059C29A /* CRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90FF101992C65E0059C29A /* CRSAppDelegate.m */; };
+		DF90FF141992C65E0059C29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF90FF121992C65E0059C29A /* Main.storyboard */; };
+		DF90FF171992C65E0059C29A /* CRSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90FF161992C65E0059C29A /* CRSViewController.m */; };
+		DF90FF191992C65E0059C29A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF90FF181992C65E0059C29A /* Images.xcassets */; };
+		DF90FF201992C65E0059C29A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF1F1992C65E0059C29A /* XCTest.framework */; };
+		DF90FF211992C65E0059C29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF001992C65E0059C29A /* Foundation.framework */; };
+		DF90FF221992C65E0059C29A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90FF041992C65E0059C29A /* UIKit.framework */; };
+		DF90FF2A1992C65E0059C29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF90FF281992C65E0059C29A /* InfoPlist.strings */; };
+		DF90FF2C1992C65E0059C29A /* Catmull_Rom_Spline_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90FF2B1992C65E0059C29A /* Catmull_Rom_Spline_ExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF90FF231992C65E0059C29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF90FEF51992C65E0059C29A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF90FEFC1992C65E0059C29A;
+			remoteInfo = "Catmull-Rom Spline Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF90FEFD1992C65E0059C29A /* Catmull-Rom Spline Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catmull-Rom Spline Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90FF001992C65E0059C29A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF90FF021992C65E0059C29A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF90FF041992C65E0059C29A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF90FF081992C65E0059C29A /* Catmull-Rom Spline Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catmull-Rom Spline Example-Info.plist"; sourceTree = "<group>"; };
+		DF90FF0A1992C65E0059C29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF90FF0C1992C65E0059C29A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF90FF0E1992C65E0059C29A /* Catmull-Rom Spline Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catmull-Rom Spline Example-Prefix.pch"; sourceTree = "<group>"; };
+		DF90FF0F1992C65E0059C29A /* CRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSAppDelegate.h; sourceTree = "<group>"; };
+		DF90FF101992C65E0059C29A /* CRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSAppDelegate.m; sourceTree = "<group>"; };
+		DF90FF131992C65E0059C29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF90FF151992C65E0059C29A /* CRSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSViewController.h; sourceTree = "<group>"; };
+		DF90FF161992C65E0059C29A /* CRSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSViewController.m; sourceTree = "<group>"; };
+		DF90FF181992C65E0059C29A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF90FF1E1992C65E0059C29A /* Catmull-Rom Spline ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catmull-Rom Spline ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90FF1F1992C65E0059C29A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF90FF271992C65E0059C29A /* Catmull-Rom Spline ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catmull-Rom Spline ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		DF90FF291992C65E0059C29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF90FF2B1992C65E0059C29A /* Catmull_Rom_Spline_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Catmull_Rom_Spline_ExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF90FEFA1992C65E0059C29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF031992C65E0059C29A /* CoreGraphics.framework in Frameworks */,
+				DF90FF051992C65E0059C29A /* UIKit.framework in Frameworks */,
+				DF90FF011992C65E0059C29A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF90FF1B1992C65E0059C29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF201992C65E0059C29A /* XCTest.framework in Frameworks */,
+				DF90FF221992C65E0059C29A /* UIKit.framework in Frameworks */,
+				DF90FF211992C65E0059C29A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF90FEF41992C65E0059C29A = {
+			isa = PBXGroup;
+			children = (
+				DF90FF061992C65E0059C29A /* Catmull-Rom Spline Example */,
+				DF90FF251992C65E0059C29A /* Catmull-Rom Spline ExampleTests */,
+				DF90FEFF1992C65E0059C29A /* Frameworks */,
+				DF90FEFE1992C65E0059C29A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF90FEFE1992C65E0059C29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FEFD1992C65E0059C29A /* Catmull-Rom Spline Example.app */,
+				DF90FF1E1992C65E0059C29A /* Catmull-Rom Spline ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF90FEFF1992C65E0059C29A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FF001992C65E0059C29A /* Foundation.framework */,
+				DF90FF021992C65E0059C29A /* CoreGraphics.framework */,
+				DF90FF041992C65E0059C29A /* UIKit.framework */,
+				DF90FF1F1992C65E0059C29A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF90FF061992C65E0059C29A /* Catmull-Rom Spline Example */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FF0F1992C65E0059C29A /* CRSAppDelegate.h */,
+				DF90FF101992C65E0059C29A /* CRSAppDelegate.m */,
+				DF90FF121992C65E0059C29A /* Main.storyboard */,
+				DF90FF151992C65E0059C29A /* CRSViewController.h */,
+				DF90FF161992C65E0059C29A /* CRSViewController.m */,
+				DF90FF181992C65E0059C29A /* Images.xcassets */,
+				DF90FF071992C65E0059C29A /* Supporting Files */,
+			);
+			path = "Catmull-Rom Spline Example";
+			sourceTree = "<group>";
+		};
+		DF90FF071992C65E0059C29A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FF081992C65E0059C29A /* Catmull-Rom Spline Example-Info.plist */,
+				DF90FF091992C65E0059C29A /* InfoPlist.strings */,
+				DF90FF0C1992C65E0059C29A /* main.m */,
+				DF90FF0E1992C65E0059C29A /* Catmull-Rom Spline Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF90FF251992C65E0059C29A /* Catmull-Rom Spline ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FF2B1992C65E0059C29A /* Catmull_Rom_Spline_ExampleTests.m */,
+				DF90FF261992C65E0059C29A /* Supporting Files */,
+			);
+			path = "Catmull-Rom Spline ExampleTests";
+			sourceTree = "<group>";
+		};
+		DF90FF261992C65E0059C29A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FF271992C65E0059C29A /* Catmull-Rom Spline ExampleTests-Info.plist */,
+				DF90FF281992C65E0059C29A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF90FEFC1992C65E0059C29A /* Catmull-Rom Spline Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF90FF2F1992C65E0059C29A /* Build configuration list for PBXNativeTarget "Catmull-Rom Spline Example" */;
+			buildPhases = (
+				DF90FEF91992C65E0059C29A /* Sources */,
+				DF90FEFA1992C65E0059C29A /* Frameworks */,
+				DF90FEFB1992C65E0059C29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catmull-Rom Spline Example";
+			productName = "Catmull-Rom Spline Example";
+			productReference = DF90FEFD1992C65E0059C29A /* Catmull-Rom Spline Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF90FF1D1992C65E0059C29A /* Catmull-Rom Spline ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF90FF321992C65E0059C29A /* Build configuration list for PBXNativeTarget "Catmull-Rom Spline ExampleTests" */;
+			buildPhases = (
+				DF90FF1A1992C65E0059C29A /* Sources */,
+				DF90FF1B1992C65E0059C29A /* Frameworks */,
+				DF90FF1C1992C65E0059C29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF90FF241992C65E0059C29A /* PBXTargetDependency */,
+			);
+			name = "Catmull-Rom Spline ExampleTests";
+			productName = "Catmull-Rom Spline ExampleTests";
+			productReference = DF90FF1E1992C65E0059C29A /* Catmull-Rom Spline ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF90FEF51992C65E0059C29A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CRS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Yorke";
+				TargetAttributes = {
+					DF90FF1D1992C65E0059C29A = {
+						TestTargetID = DF90FEFC1992C65E0059C29A;
+					};
+				};
+			};
+			buildConfigurationList = DF90FEF81992C65E0059C29A /* Build configuration list for PBXProject "Catmull-Rom Spline Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF90FEF41992C65E0059C29A;
+			productRefGroup = DF90FEFE1992C65E0059C29A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF90FEFC1992C65E0059C29A /* Catmull-Rom Spline Example */,
+				DF90FF1D1992C65E0059C29A /* Catmull-Rom Spline ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF90FEFB1992C65E0059C29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF191992C65E0059C29A /* Images.xcassets in Resources */,
+				DF90FF0B1992C65E0059C29A /* InfoPlist.strings in Resources */,
+				DF90FF141992C65E0059C29A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF90FF1C1992C65E0059C29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF2A1992C65E0059C29A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF90FEF91992C65E0059C29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF0D1992C65E0059C29A /* main.m in Sources */,
+				DF90FF171992C65E0059C29A /* CRSViewController.m in Sources */,
+				DF90FF111992C65E0059C29A /* CRSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF90FF1A1992C65E0059C29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF90FF2C1992C65E0059C29A /* Catmull_Rom_Spline_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF90FF241992C65E0059C29A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF90FEFC1992C65E0059C29A /* Catmull-Rom Spline Example */;
+			targetProxy = DF90FF231992C65E0059C29A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF90FF091992C65E0059C29A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF90FF0A1992C65E0059C29A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF90FF121992C65E0059C29A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF90FF131992C65E0059C29A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF90FF281992C65E0059C29A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF90FF291992C65E0059C29A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF90FF2D1992C65E0059C29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF90FF2E1992C65E0059C29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF90FF301992C65E0059C29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Prefix.pch";
+				INFOPLIST_FILE = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF90FF311992C65E0059C29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Prefix.pch";
+				INFOPLIST_FILE = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF90FF331992C65E0059C29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catmull-Rom Spline Example.app/Catmull-Rom Spline Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Catmull-Rom Spline ExampleTests/Catmull-Rom Spline ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF90FF341992C65E0059C29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catmull-Rom Spline Example.app/Catmull-Rom Spline Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catmull-Rom Spline Example/Catmull-Rom Spline Example-Prefix.pch";
+				INFOPLIST_FILE = "Catmull-Rom Spline ExampleTests/Catmull-Rom Spline ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF90FEF81992C65E0059C29A /* Build configuration list for PBXProject "Catmull-Rom Spline Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF90FF2D1992C65E0059C29A /* Debug */,
+				DF90FF2E1992C65E0059C29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF90FF2F1992C65E0059C29A /* Build configuration list for PBXNativeTarget "Catmull-Rom Spline Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF90FF301992C65E0059C29A /* Debug */,
+				DF90FF311992C65E0059C29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF90FF321992C65E0059C29A /* Build configuration list for PBXNativeTarget "Catmull-Rom Spline ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF90FF331992C65E0059C29A /* Debug */,
+				DF90FF341992C65E0059C29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF90FEF51992C65E0059C29A /* Project object */;
+}
